@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Header Section */
+
+header {
+  height: 101px;
+  box-shadow: 2px 2px #c5c0c0;
+}
+nav {
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+}
+.logo img {
+  height: 70px;
+  margin-top: 15px;
+}
+nav {
+  display: flex;
+}
+.menu {
+  margin-top: 40px;
+  float: left;
+  flex: 1;
+  margin-left: 60px;
+}
+.menu ul li {
+  display: inline;
+  margin: 10px;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.menu_items ul li {
+  display: inline;
+  margin: 10px;
+}
+.menu_items ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin: 5px;
+}
+.menu_items {
+  margin-top: 40px;
+  float: right;
+}
+.menu_items button {
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: white;
+}
+.menu-item-button_1:hover {
+  background-color: cadetblue;
+}
+/* Gap Area */
+.gap {
+  height: 30px;
+}
+/* Body Section */
+.body_container {
+  padding-top: 3px;
+  width: 70%;
+  margin: auto;
+}
+.covid_message_area {
+  height: 130.5px;
+  background-color: #d4e9e2;
+  text-align: center;
+}
+.covid_message_area p {
+  padding-top: 40px;
+  color: black;
+  font-size: 1.1rem;
+}
+.covid_message_area p a {
+  color: black;
+}
+
+/* Image Container 1 */
+.image_container_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.text1 {
+  background-color: #f3e2c1;
+  text-align: center;
+  justify-content: center;
+}
+.image1 img {
+  width: 100%;
+}
