@@ -24,6 +24,9 @@ nav {
 nav {
   display: flex;
 }
+nav:hover {
+  color: #1bf5ac;
+}
 .menu {
   margin-top: 40px;
   float: left;
@@ -86,7 +89,9 @@ nav {
 .covid_message_area p a {
   color: black;
 }
-
+.covid_message_area p a li:hover {
+  display: none;
+}
 /* Image Container 1 */
 .image_container_1 {
   display: grid;
@@ -95,8 +100,194 @@ nav {
 .text1 {
   background-color: #f3e2c1;
   text-align: center;
-  justify-content: center;
+  display: grid;
 }
 .image1 img {
   width: 100%;
+}
+.text1 h1 {
+  margin-top: 50px;
+  font-size: 3rem;
+  color: #013f2a;
+}
+.text1 p {
+  padding: 15px;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  margin-top: 50px;
+  color: #013f2a;
+}
+.text1 button {
+  height: 45px;
+  width: 150px;
+  border-radius: 20px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 180px;
+  cursor: pointer;
+  background-color: #f3e2c1;
+  border: 2px black solid;
+  color: #013f2a;
+  font-size: 1rem;
+}
+.image_container_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #013f2a;
+  height: 60vh;
+}
+.image2 img {
+  height: 100%;
+  width: 100%;
+}
+.text2 h1 {
+  color: #fff;
+  margin-top: 180px;
+  text-align: center;
+  font-size: 3rem;
+  word-spacing: 5px;
+  letter-spacing: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+.text2 p {
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+.text2 button {
+  border-radius: 20px;
+  margin: auto;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px black solid;
+  margin-left: 260px;
+  background-color: #013f2a;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.text2 button:hover {
+  background-color: #5f5c5c;
+}
+.image_container_3 {
+  display: grid;
+  grid-template-columns: 4fr 0.1fr 4fr;
+}
+.image_container_3 img {
+  width: 100%;
+  height: 50vh;
+}
+.container_visa {
+  text-align: center;
+  color: #013f2a;
+  height: 75vh;
+  background-color: #d4e9e2;
+}
+.container_visa h1 {
+  padding: 5px;
+}
+.container_visa p {
+  padding: 10px;
+  line-height: 1.5rem;
+}
+.ice {
+  height: 75vh;
+  background-color: #d4e9e2;
+  text-align: center;
+  color: #013f2a;
+}
+.container_visa button {
+  height: 50px;
+  width: 180px;
+  border-radius: 20px;
+  background-color: #d4e9e2;
+  font-size: 1.2rem;
+}
+.ice h1 {
+  padding: 30px;
+}
+.ice p {
+  padding: 5px;
+}
+.ice .options {
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #d4e9e2;
+  height: 50px;
+  width: 180px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.image_container_4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #d4e9e2;
+}
+.image_container_4 img {
+  width: 100%;
+}
+.text_area h3 {
+  margin-top: 120px;
+}
+.text_area p {
+  text-align: center;
+  padding: 20px;
+  line-height: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.text_area {
+  text-align: center;
+}
+.text_area button {
+  height: 50px;
+  width: 180px;
+  border-radius: 20px;
+  background-color: #d4e9e2;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.text_area_2 {
+  margin-top: 15px;
+  text-align: center;
+  height: 5rem;
+  font-weight: bold;
+}
+.text_area_3 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+.divide {
+  background-color: #d4e9e2;
+}
+footer {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer p {
+  font-size: 1.5rem;
+  color: #5f5c5c;
+}
+.footer_container ul {
+  text-decoration: none;
+}
+.footer_container li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: -5px;
+}
+.footer_container a {
+  text-decoration: none;
+  color: #5f5c5c;
+  line-height: 2.5rem;
+}
+
+.footer_container a:hover {
+  color: #013f2a;
 }
